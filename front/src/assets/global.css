@@ -1,0 +1,123 @@
+.principal-sheet {
+    height: 100%;
+}
+.v-text-field .v-input__control .v-input__slot {
+    min-height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
+/* CHAT ROOM */
+.chat {
+    background-color: #DDDDDD;
+    height: 94.8vh;
+}
+.chat-head {
+    display: flex;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px #ffffff;
+}
+.chat-head-name {
+    width: 90%;
+    font-weight: bold;
+    display: flex;
+}
+.chat-head-name .user-name {
+    padding-top: 10px;
+}
+.chat-head-close {
+    width: 10%;
+    text-align: right;
+}
+.chat-body {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-bottom: 5rem !important;
+    padding-top: 1.5rem !important;
+    max-height: 80vh;
+    overflow: auto;
+}
+.chat-body::-webkit-scrollbar {
+    display: none;
+}
+.message-item {
+    display: flex;
+}
+.avatar {
+    margin-right: 1rem;
+    display: inline-block;
+    margin-bottom: 0;
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+}
+.rounded-circle {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%!important;
+}
+.message-content {
+    background-color: #FFFFFF;
+    border-radius: .5rem;
+    padding: .8rem;
+}
+.time {
+    color: #828282;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 12px;
+    text-align: right;
+}
+.outgoing-message {
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.outgoing-message .message-content {
+    background-color: #2a2a2a;
+    color: rgba(255,255,255,.9);
+    display: table;
+    margin-left: auto;
+}
+.outgoing-message .message-avatar .avatar {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+.chat-footer {
+    padding: 1.5rem;
+    bottom: 0;
+    position: absolute;
+    width: 75%;
+}
+.chat-footer form {
+    background-color: #fff;
+    padding: 1rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    border-radius: .5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.form-buttons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* ./ CHAT ROOM */
