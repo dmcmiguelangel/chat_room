@@ -7,7 +7,7 @@ class SocketIoService {
     constructor() {}
 
     setupConnection() {
-        this.socket = io(process.env.BASE_URL, {
+        this.socket = io('http://localhost:3000', {
             transports: ['websocket'],
             forceNew: true,
             upgrade: false
